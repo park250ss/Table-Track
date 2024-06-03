@@ -16,6 +16,7 @@ Customer:
 - Select an available time and number of people for a table
 - Enter name and contact information
 - Confirm reservation
+
 Restaurant Staff:
 - Update number of people in a reservation
 - Update time of a reservation
