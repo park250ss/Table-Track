@@ -8,6 +8,22 @@ Table Track will provide a command-line interface for both customers and restaur
 
 Our main objective is to design and develop robust testing suites for this projectadd some const. We will employ various testing techniques, including path testing, data flow analysis, logic coverage, integration testing, and validation testing. By thoroughly testing the software application, we aim to ensure its reliability, accuracy, and effectiveness in managing restaurant reservations.
 
-## Constraints
-There are some constraints regarding this project:
+## Design Requirements
+
+### Functions
+Customer:
+- View available reservation times
+- Select an available time and number of people for a table
+- Enter name and contact information
+- Confirm reservation
+Restaurant Staff:
+- Update number of people in a reservation
+- Update time of a reservation
+- Cancel a reservation
+
+### Objectives
+- Customers can make reservations
+- Restaurant staff can update and cancel reservatiosn
+
+### Constraints
 - No User Interface : Table Track will be a command-line based software, with no graphical user interface.
