@@ -24,10 +24,30 @@ public class ReservationManager {
         return true;
     }
 
+    /*This function will loop thru resrvations and return reservation if id matches */
+    public Reservation getReservationById(int id) {
+        for (Reservation reservation : reservations) {
+            if (reservation.getId() == id) {
+                return reservation;
+            }
+        }
+        return null;
+    }
+
     /*This function will check for available time and reserve it , other wise return false */
     public boolean addReservation(String name, String contactInfo, LocalDateTime reservationTime, int numberOfPeople) {
         if (isTimeSlotAvailable(reservationTime)) {
             reservations.add(new Reservation(name, contactInfo, reservationTime, numberOfPeople));
+            return true;
+        }
+        return false;
+    }
+
+    /* this function will look for a matching id, and cancel reservation if matches */
+    public boolean cancelReservation(int id) {
+        Reservation reservation = getReservationById(id);
+        if (reservation != null) {
+            reservations.remove(reservation);
             return true;
         }
         return false;
