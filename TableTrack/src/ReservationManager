@@ -23,4 +23,13 @@ public class ReservationManager {
         }
         return true;
     }
+
+    /*This function will check for available time and reserve it , other wise return false */
+    public boolean addReservation(String name, String contactInfo, LocalDateTime reservationTime, int numberOfPeople) {
+        if (isTimeSlotAvailable(reservationTime)) {
+            reservations.add(new Reservation(name, contactInfo, reservationTime, numberOfPeople));
+            return true;
+        }
+        return false;
+    }
 }
