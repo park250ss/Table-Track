@@ -1,0 +1,16 @@
+/*
+ * This class will act like an restaurant staff of mangers.
+ * This can have : 
+ * addReservation, cancel reservation, getAvailableTimeSlot, update reservation etc.
+ */
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
+
+public class ReservationManager {
+    private List<Reservation> reservations;
+
+    public ReservationManager() {
+        reservations = new ArrayList<>();
+    }
+}
