@@ -13,4 +13,14 @@ public class ReservationManager {
     public ReservationManager() {
         reservations = new ArrayList<>();
     }
+
+    /* This will return true if given time slot is available */
+    public boolean isTimeSlotAvailable(LocalDateTime time) {
+        for (Reservation reservation : reservations) {
+            if (reservation.getReservationTime().isEqual(time)) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
