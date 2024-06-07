@@ -37,7 +37,7 @@ public class ReservationManager {
     /*This function will check for available time and reserve it , other wise return false */
     public boolean addReservation(String name, String contactInfo, LocalDateTime reservationTime, int numberOfPeople) {
         if (isTimeSlotAvailable(reservationTime)) {
-            reservations.add(new Reservation(name, contactInfo, reservationTime, numberOfPeople));
+            reservations.add(new Reservation(name, reservationTime, numberOfPeople));
             return true;
         }
         return false;
@@ -64,5 +64,11 @@ public class ReservationManager {
             return true;
         }
         return false;
+    }
+
+    // TODO : Ramanpreet Singh, need to implement this
+    /* This will return the available time slots */
+    public List<LocalDateTime> getAvailableTimeSlots() {
+        return null;
     }
 }
