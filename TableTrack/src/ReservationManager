@@ -52,4 +52,17 @@ public class ReservationManager {
         }
         return false;
     }
+
+    /* This function will update the reservation by providing the id. 
+     * Note :  id will remain same, you can update time and number of people
+     */
+    public boolean updateReservation(int id, LocalDateTime newTime, int newNumberOfPeople) {
+        Reservation reservation = getReservationById(id);
+        if (reservation != null) {
+            reservation.setReservationTime(newTime);
+            reservation.setNumberOfPeople(newNumberOfPeople);
+            return true;
+        }
+        return false;
+    }
 }
