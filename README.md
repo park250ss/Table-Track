@@ -29,3 +29,6 @@ Restaurant Staff:
 ### Constraints
 - No User Interface : Table Track will be a command-line based software, with no graphical user interface.
 - Only employees can upadate the reservation information. Customers are not allowed to change any reservations.
+
+## Solution 1
+- Our first solution was a simple solution that only allowed users to enter a time and number of people. The majority of our test cases failed as we only had the users enter minimal information.
