@@ -27,6 +27,10 @@ Restaurant Staff:
 - Restaurant staff can update and cancel reservatiosn
 
 ### Constraints
+- Economic Factors:
+- Sustainability and Environmental Factors:
+- Societal Impacts:
+- Ethics:
 - No User Interface : Table Track will be a command-line based software, with no graphical user interface.
 - Only employees can upadate the reservation information. Customers are not allowed to change any reservations.
 
