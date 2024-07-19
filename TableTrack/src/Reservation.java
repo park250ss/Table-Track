@@ -1,29 +1,37 @@
 /*
  * This class is a interface of each reservation
  */
-import java.time.LocalDateTime;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 
 public class Reservation {
     private String name;
-    private LocalDateTime reservationTime;
+    private LocalDate reservationDate;
+    private LocalTime reservationTime;
     private int numberOfPeople;
     private int id;
     private static int idCounter = 1; 
 
-    // constructer
-    public Reservation(String name, LocalDateTime reservationTime, int numberOfPeople) {
+    // constructor
+    public Reservation(String name, LocalDate reservationDate, LocalTime reservationTime, int numberOfPeople) {
         this.name = name;
+        this.reservationDate = reservationDate;
         this.reservationTime = reservationTime;
         this.numberOfPeople = numberOfPeople;
         this.id = idCounter++;
     }
 
-    //getters
+    // getters
     public String getName() {
         return name;
     }
 
-    public LocalDateTime getReservationTime() {
+    public LocalDate getReservationDate() {
+        return reservationDate;
+    }
+
+    public LocalTime getReservationTime() {
         return reservationTime;
     }
 
@@ -35,11 +43,16 @@ public class Reservation {
         return id;
     }
 
-    //setters
+    // setters
     public void setName(String name){
         this.name = name;
     }
-    public void setReservationTime(LocalDateTime reservationTime) {
+
+    public void setReservationDate(LocalDate reservationDate) {
+        this.reservationDate = reservationDate;
+    }
+
+    public void setReservationTime(LocalTime reservationTime) {
         this.reservationTime = reservationTime;
     }
 
@@ -47,10 +60,10 @@ public class Reservation {
         this.numberOfPeople = numberOfPeople;
     }
 
-    // display this message when sone
+    // display this message when done
     @Override
     public String toString() {
-        return "Reservation ID: " + id + ", Name: " + name + ", Time: " + reservationTime + ", People: " + numberOfPeople;
+        DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        return "Reservation ID: " + id + ", Name: " + name + ", Date: " + reservationDate.format(dateFormatter) + ", Time: " + reservationTime + ", People: " + numberOfPeople;
     }
 }
-

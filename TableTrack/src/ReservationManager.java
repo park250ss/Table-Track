@@ -3,7 +3,9 @@
  * This can have : 
  * addReservation, cancel reservation, getAvailableTimeSlot, update reservation etc.
  */
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,17 +16,17 @@ public class ReservationManager {
         reservations = new ArrayList<>();
     }
 
-    /* This will return true if given time slot is available */
-    public boolean isTimeSlotAvailable(LocalDateTime time) {
+    /* This will return true if given date and time slot is available */
+    public boolean isTimeSlotAvailable(LocalDate date, LocalTime time) {
         for (Reservation reservation : reservations) {
-            if (reservation.getReservationTime().isEqual(time)) {
+            if (reservation.getReservationDate().isEqual(date) && reservation.getReservationTime().equals(time)) {
                 return false;
             }
         }
         return true;
     }
 
-    /*This function will loop thru resrvations and return reservation if id matches */
+    /* This function will loop through reservations and return reservation if id matches */
     public Reservation getReservationById(int id) {
         for (Reservation reservation : reservations) {
             if (reservation.getId() == id) {
@@ -34,16 +36,16 @@ public class ReservationManager {
         return null;
     }
 
-    /*This function will check for available time and reserve it , other wise return false */
-    public boolean addReservation(String name, String contactInfo, LocalDateTime reservationTime, int numberOfPeople) {
-        if (isTimeSlotAvailable(reservationTime)) {
-            reservations.add(new Reservation(name, reservationTime, numberOfPeople));
+    /* This function will check for available time and reserve it, otherwise return false */
+    public boolean addReservation(String name, String contactInfo, LocalDate reservationDate, LocalTime reservationTime, int numberOfPeople) {
+        if (isTimeSlotAvailable(reservationDate, reservationTime)) {
+            reservations.add(new Reservation(name, reservationDate, reservationTime, numberOfPeople));
             return true;
         }
         return false;
     }
 
-    /* this function will look for a matching id, and cancel reservation if matches */
+    /* This function will look for a matching id and cancel the reservation if it matches */
     public boolean cancelReservation(int id) {
         Reservation reservation = getReservationById(id);
         if (reservation != null) {
@@ -53,12 +55,13 @@ public class ReservationManager {
         return false;
     }
 
-    /* This function will update the reservation by providing the id. 
-     * Note :  id will remain same, you can update time and number of people
+    /* This function will update the reservation by providing the id.
+     * Note: id will remain the same, you can update time and number of people
      */
-    public boolean updateReservation(int id, LocalDateTime newTime, int newNumberOfPeople) {
+    public boolean updateReservation(int id, LocalDate newDate, LocalTime newTime, int newNumberOfPeople) {
         Reservation reservation = getReservationById(id);
         if (reservation != null) {
+            reservation.setReservationDate(newDate);
             reservation.setReservationTime(newTime);
             reservation.setNumberOfPeople(newNumberOfPeople);
             return true;
@@ -66,9 +69,19 @@ public class ReservationManager {
         return false;
     }
 
-    // TODO : Ramanpreet Singh, need to implement this
-    /* This will return the available time slots */
-    public List<LocalDateTime> getAvailableTimeSlots() {
-        return null;
+    /* This will return the available time slots for a given date */
+    public List<LocalDateTime> getAvailableTimeSlots(LocalDate date) {
+        List<LocalDateTime> availableSlots = new ArrayList<>();
+        LocalTime startTime = LocalTime.of(9, 0);
+        LocalTime endTime = LocalTime.of(21, 0);
+
+        while (startTime.isBefore(endTime)) {
+            if (isTimeSlotAvailable(date, startTime)) {
+                availableSlots.add(LocalDateTime.of(date, startTime));
+            }
+            startTime = startTime.plusHours(1);
+        }
+
+        return availableSlots;
     }
 }
