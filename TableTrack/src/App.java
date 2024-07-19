@@ -9,7 +9,8 @@ public class App {
             System.out.println("Welcome to the Restaurant Reservation System");
             System.out.println("Are you a:");
             System.out.println("1. Customer");
-            System.out.println("2. Exit");
+            System.out.println("2. Staff");
+            System.out.println("3. Exit");
             System.out.print("Choose an option: ");
 
             int choice = scanner.nextInt();
@@ -21,6 +22,10 @@ public class App {
                     customer.displayMenu();
                     break;
                 case 2:
+                    Staff staff = new Staff(reservationManager);
+                    staff.displayMenu();
+                    break;
+                case 3:
                     System.out.println("Thank you for using the Reservation System. Goodbye!");
                     return;
                 default:

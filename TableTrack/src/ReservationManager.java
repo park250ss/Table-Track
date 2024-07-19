@@ -86,4 +86,13 @@ public class ReservationManager {
         return availableSlots;
     }
 
+    /**
+     * Returns a list of all reservations.
+     * 
+     * @return a list of all reservations
+     */
+    public List<Reservation> getAllReservations() {
+        return new ArrayList<>(reservations);
+    }
+
 }
