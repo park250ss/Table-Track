@@ -4,7 +4,6 @@
  * addReservation, cancel reservation, getAvailableTimeSlot, update reservation etc.
  */
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -37,13 +36,15 @@ public class ReservationManager {
     }
 
     /* This function will check for available time and reserve it, otherwise return false */
-    public boolean addReservation(String name, String contactInfo, LocalDate reservationDate, LocalTime reservationTime, int numberOfPeople) {
+    public int addReservation(String name, String contactInfo, LocalDate reservationDate, LocalTime reservationTime, int numberOfPeople) {
         if (isTimeSlotAvailable(reservationDate, reservationTime)) {
-            reservations.add(new Reservation(name, reservationDate, reservationTime, numberOfPeople));
-            return true;
+            Reservation newReservation = new Reservation(name, reservationDate, reservationTime, numberOfPeople);
+            reservations.add(newReservation);
+            return newReservation.getId(); // Return the ID of the newly created reservation
         }
-        return false;
+        return -1; // Indicate failure
     }
+    
 
     /* This function will look for a matching id and cancel the reservation if it matches */
     public boolean cancelReservation(int id) {
@@ -70,18 +71,19 @@ public class ReservationManager {
     }
 
     /* This will return the available time slots for a given date */
-    public List<LocalDateTime> getAvailableTimeSlots(LocalDate date) {
-        List<LocalDateTime> availableSlots = new ArrayList<>();
+    public List<LocalTime> getAvailableTimeSlots(LocalDate date) {
+        List<LocalTime> availableSlots = new ArrayList<>();
         LocalTime startTime = LocalTime.of(9, 0);
         LocalTime endTime = LocalTime.of(21, 0);
 
         while (startTime.isBefore(endTime)) {
             if (isTimeSlotAvailable(date, startTime)) {
-                availableSlots.add(LocalDateTime.of(date, startTime));
+                availableSlots.add(startTime);
             }
             startTime = startTime.plusHours(1);
         }
 
         return availableSlots;
     }
+
 }
