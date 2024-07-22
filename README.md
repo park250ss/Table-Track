@@ -79,15 +79,23 @@ Employee Features:
 
 #### Equivalence Class Testing
 
-#### Decision Tables Testing
+#### Decision Table Testing
 - Decision Table for making a reservation:
 ![image](https://github.com/user-attachments/assets/571eb9cb-433f-4fc0-af20-13f743f5fedd)
 
-- [Test Cases](/TableTrack/tests/UtilTest.java) 
+- [Decision Table Test Cases](/TableTrack/tests/UtilTest.java) 
 
 #### State Transition Testing
 
 #### Use Case Testing
+- Make a reservation:
+![image](https://github.com/user-attachments/assets/1d09640a-bcd4-4268-b805-541fbbeb5f06)
+
+- Update a reservation:
+![image](https://github.com/user-attachments/assets/51e07116-dcdc-4a8d-affb-abd8286e9eba)
+
+- Cancel a reservation:
+![image](https://github.com/user-attachments/assets/c6c5d6d3-0d71-4d12-8c0d-1abf86764da2)
 
 ### Limitations
 - Our design is only available through a command-line interface. 
