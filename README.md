@@ -45,6 +45,14 @@ Restaurant Staff:
 ### Components
 
 ### Features
+Customer Features:
+- Customers can make a reservation by entering in a date, time, number of people, and contact information.
+- Customers can view available time slots for specific dates, in order to choose the best available time for them.
+- Reservations can be updated with the Reservation ID number that was given to the customer. They can update the date, time or number of people for their reservation.
+- Customers can enter in their Reservation ID number and view their reservation information.
+
+Employee Features:
+
 
 ### Environmental, Societal, Safety and Economic Considerations
 - Our design took societal constraints into consideration by ensuring that our product would be beneficial for a restaurants' employees and help them lessen their workload. By giving the customer's the ability to make and update their own reservations, employees no longer have to personally accept calls for reservations.
