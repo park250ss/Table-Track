@@ -23,7 +23,14 @@ public class App {
                     break;
                 case 2:
                     Staff staff = new Staff(reservationManager);
-                    staff.displayMenu();
+                    System.out.println("Enter Staff Code: ");
+                    int code = scanner.nextInt();
+                    if (code == 1234) {
+                        staff.displayMenu();
+                    }
+                    else {
+                        System.out.println("Wrong code");
+                    }
                     break;
                 case 3:
                     System.out.println("Thank you for using the Reservation System. Goodbye!");
