@@ -67,6 +67,21 @@ Employee Features:
 ### Test Cases and Results
 #### Path Testing
 
+#### Data Flow
+
+#### Logic Coverage
+
+#### Integration Testing
+
+#### Boundary Value Testing
+
+#### Equivalence Class Testing
+
+#### Decision Tables Testing
+
+#### State Transition Testing
+
+#### Use Case Testing
 
 ### Limitations
 - Our design is only available through a command-line interface. 
