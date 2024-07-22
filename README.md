@@ -81,6 +81,14 @@ Employee Features:
 #### Equivalence Class Testing
 
 #### Decision Tables Testing
+- Decision Table for making a reservation:
+| Condition |                      |Rule 1 | Rule 2 |
+--------------- ----------------------
+|           | Valid date and time | 
+|-------------------------------------
+| Action    |  | 
+|
+|
 
 #### State Transition Testing
 
