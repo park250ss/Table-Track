@@ -52,7 +52,11 @@ Customer Features:
 - Customers can enter in their Reservation ID number and view their reservation information.
 
 Employee Features:
-
+- Employees can make a reservation for a customer by inserting the date, time, number of people and customer information.
+- Employees can update a customers reservation.
+- Available time slots for dates can be viewed by employees.
+- All reservations can be viewed by employees.
+- Employees can cancel reservations.
 
 ### Environmental, Societal, Safety and Economic Considerations
 - Our design took societal constraints into consideration by ensuring that our product would be beneficial for a restaurants' employees and help them lessen their workload. By giving the customer's the ability to make and update their own reservations, employees no longer have to personally accept calls for reservations.
