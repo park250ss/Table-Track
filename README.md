@@ -66,6 +66,9 @@ Employee Features:
 
 ### Test Cases and Results
 #### Path Testing
+- For the addReservation() method in the ReservationManager class, there are two paths that can be taken. The first path is when the requested time slot is available and the second one is when the time slot is not available. These two test cases cover both of these paths.
+![image](https://github.com/user-attachments/assets/f93c4f9d-27a2-4301-82da-b3bc15e17bfe)
+
 
 #### Data Flow
 
