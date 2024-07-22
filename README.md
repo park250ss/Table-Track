@@ -41,6 +41,7 @@ Restaurant Staff:
 - We refined our design to allow the user to enter all of their information. With this design, the customer test cases passed, however, the employee test cases failed as we had no way for employees to edit information. We also had no way for the user to choose whether they are an employee or a customer. To improve this design, we need to add a code that employees can enter in order to access the edit and delete methods.
 
 ## Final Solution
+- Our final solution 
 
 ### Components
 
@@ -68,4 +69,4 @@ Employee Features:
 
 
 ### Limitations
-
+- Our design is only available through a command-line interface. 
