@@ -44,6 +44,12 @@ Restaurant Staff:
 - Our final solution is better than our other two solutions, as the user selects whether they are an employee or a customer. If they are an employee, they are prompted to enter in a code to get access to the employee information. Our final solution includes the customer entering in all of the information needed to book a reservation and allows the customers to view available times, and update their reservation. It also allows the employees to make, view, edit, and delete reservations. This resulted in all of our test cases passing.
 
 ### Components
+- Customer
+- Reservation
+- Reservation Manger
+- Staff
+- Util
+- App
 
 ### Features
 Customer Features:
