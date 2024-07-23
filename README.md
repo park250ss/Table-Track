@@ -75,24 +75,14 @@ Employee Features:
 - For the addReservation() method in the ReservationManager class, there are two paths that can be taken. The first path is when the requested time slot is available and the second one is when the time slot is not available. These two test cases cover both of these paths.
 ![image](https://github.com/user-attachments/assets/f93c4f9d-27a2-4301-82da-b3bc15e17bfe)
 
-#### Data Flow
-
-#### Logic Coverage
-
 #### Integration Testing
 - The test case 'testUpdateReservation_Valid' in the [Reservation Manager Test](/TableTrack/tests/ReservationManagerTest.java) file, performs Integration testing, because it tests how the Reservation class and the Reservation Manager class interact with each other
-
-#### Boundary Value Testing
-
-#### Equivalence Class Testing
 
 #### Decision Table Testing
 - Decision Table for making a reservation:
 ![image](https://github.com/user-attachments/assets/571eb9cb-433f-4fc0-af20-13f743f5fedd)
 
 - [Decision Table Test Cases](/TableTrack/tests/UtilTest.java) 
-
-#### State Transition Testing
 
 #### Use Case Testing
 - Make a reservation:
