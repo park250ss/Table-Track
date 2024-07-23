@@ -80,6 +80,7 @@ Employee Features:
 #### Logic Coverage
 
 #### Integration Testing
+- The test case 'testUpdateReservation_Valid' in the [Reservation Manager Test] "/TableTrack/tests/ReservationManagerTest.java" file, performs Integration testing, because it tests how the Reservation class and the Reservation Manager class interact with each other
 
 #### Boundary Value Testing
 
