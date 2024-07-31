@@ -91,6 +91,7 @@ Employee Features:
 - [Decision Table Test Cases](/TableTrack/tests/UtilTest.java)
 
 #### State Transition Testing
+- ![image](https://github.com/user-attachments/assets/9d8ae681-9591-4681-a5db-9365830481e3)
 
 #### Use Case Testing
 - Make a reservation:
