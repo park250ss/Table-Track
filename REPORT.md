@@ -69,15 +69,15 @@ Seonyu Park <br />
 >
 > 
 #### Final Solution <br />
->  Our final solution is better than our other two solutions, as the user selects whether they are an employee or a customer. If they are an employee, they are prompted to enter in a code to get access to the employee information. Our final solution includes the customer entering in all of the information needed to book a reservation and allows the customers to view available times, and update their reservation. It also allows the employees to make, view, edit, and delete reservations. This resulted in all of our test cases passing..<br />
-> Features: <br />
+>  Our final solution is better than our other two solutions, as the user selects whether they are an employee or a customer. If they are an employee, they are prompted to enter in a code to get access to the employee information. Our final solution includes the customer entering in all of the information needed to book a reservation and allows the customers to view available times, and update their reservation. It also allows the employees to make, view, edit, and delete reservations. This resulted in all of our test cases passing. <br />
+> <br />
 > Customer Features: <br />
 > - Customers can make a reservation by entering in a date, time, number of people, and contact information. <br />
 > - Customers can view available time slots for specific dates, in order to choose the best available time for them. <br />
 > - Reservations can be updated with the Reservation ID number that was given to the customer. They can update the date, time or number of people for their reservation. <br />
 > - Customers can enter in their Reservation ID number and view their reservation information. <br />
-> <br />
-> Employee Features: <br />
+>
+> Employees Features: <br />
 > - Employees can make a reservation for a customer by inserting the date, time, number of people and customer information. <br />
 > - Employees can update a customers reservation. <br />
 > - Available time slots for dates can be viewed by employees. <br />
