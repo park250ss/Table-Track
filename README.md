@@ -24,13 +24,12 @@ Restaurant Staff:
 
 ### Objectives
 - Customers can make reservations
-- Restaurant staff can update and cancel reservatiosn
+- Restaurant staff can update and cancel reservations
 
 ### Constraints
 - Economic Factors: Our product is free to use 
 - Sustainability and Environmental Factors: Our application allows restaurants to save supplies, as all reservations are done online. 
 - Societal Impacts: Our application reduces employees' workload and stress, as customers can book their own reservations, without having to speak to an employee.
-- Ethics:
 - No User Interface : Table Track will be a command-line based software, with no graphical user interface.
 - Only employees can upadate the reservation information. Customers are not allowed to change any reservations.
 
