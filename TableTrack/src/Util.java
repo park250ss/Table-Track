@@ -7,12 +7,17 @@ import java.util.Scanner;
 public class Util {
     private static Scanner scanner = new Scanner(System.in);
 
+    // Method to set a new Scanner for testing purposes
+    public static void setScanner(Scanner newScanner) {
+        scanner = newScanner;
+    }
+
     public static LocalDate getDateFromUser() {
         DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         LocalDate today = LocalDate.now();
         while (true) {
             System.out.print("Enter reservation date (dd/MM/yyyy): ");
-            String dateStr = scanner.nextLine().trim(); // Trim leading/trailing spaces
+            String dateStr = scanner.nextLine().trim(); 
 
             if (!dateStr.matches("\\d{2}/\\d{2}/\\d{4}")) {
                 System.out.println("Invalid format. Please enter the date in dd/MM/yyyy format.");
@@ -44,7 +49,7 @@ public class Util {
             }
 
             if (timeStr.length() == 4) {
-                timeStr = "0" + timeStr; // Add leading zero if needed
+                timeStr = "0" + timeStr; 
             }
 
             try {
@@ -55,4 +60,3 @@ public class Util {
         }
     }
 }
-
