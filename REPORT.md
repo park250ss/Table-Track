@@ -41,12 +41,12 @@ Seonyu Park <br />
 > - Update number of people in a reservation
 > - Update time of a reservation
 > - Cancel a reservation
->
-> 
+
+ 
 > **2.2.2 Objective** <br />
 > 1. Customers can make reservations <br />
 > 2. Restaurant staff can update and cancel reservatiosn <br />
->
+
 > **2.2.3 Constraints** <br />
 > 1. Economic Factors:<br />
 > The application is completely free to use and helps in saving on manual supplies. <br />
