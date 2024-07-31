@@ -118,8 +118,14 @@ Seonyu Park <br />
 > Boundary Value Testing <br />
 > The purpose of the boundary value testing was to ensure that the Util.java correctly handles edge cases for date and time inputs. Our goal was to verify that the program can handle minimum and maximum valid inputs, as well as invalid formats and special cases.
 
-> Equivalence Class Testing <br />
 #### Figure: Equivalence Class Testing <br />
+> Equivalence Class Testing <br />
+
+#### Figure: State Transition Testing <br />
+![image](https://github.com/user-attachments/assets/4830b7ee-8c15-4135-bde8-70cbb5b0904f)
+![image](https://github.com/user-attachments/assets/da9b0a8e-f12c-4c81-8f2a-fa7b628f9e46)
+> State Transition Testing <br />
+> The goal of state transition testing for the ReservationManagerStateTransitionTest.java was to make that the application correctly handles the different states and trnasitions involced in the reservation process. We wanted to verify that the program correctly transitions from initial state to gathering reservation details, checks slot availability and appropriately handles both available and unavailable time slots and makes a reservation successfully or handles reservation failure.
 
 > Decision Table Testing <br />
 > - [Decision Table Test Cases](/TableTrack/tests/UtilTest.java)
