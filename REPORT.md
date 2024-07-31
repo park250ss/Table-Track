@@ -127,10 +127,10 @@ Seonyu Park <br />
 > State Transition Testing <br />
 > The goal of state transition testing for the ReservationManagerStateTransitionTest.java was to make that the application correctly handles the different states and trnasitions involced in the reservation process. We wanted to verify that the program correctly transitions from initial state to gathering reservation details, checks slot availability and appropriately handles both available and unavailable time slots and makes a reservation successfully or handles reservation failure.
 
-> Decision Table Testing <br />
-> - [Decision Table Test Cases](/TableTrack/tests/UtilTest.java)
 #### Figure: Decision Table Testing <br />
 ![image](https://github.com/user-attachments/assets/571eb9cb-433f-4fc0-af20-13f743f5fedd)
+> Decision Table Testing <br />
+> - [Decision Table Test Cases](/TableTrack/tests/UtilTest.java)
 
 ### 4. Team Work
 #### Table 1: Week 1 Meeting 
