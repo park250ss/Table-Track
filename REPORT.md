@@ -83,6 +83,14 @@ Seonyu Park <br />
 > - Available time slots for dates can be viewed by employees. <br />
 > - All reservations can be viewed by employees. <br />
 > - Employees can cancel reservations. <br />
+>
+> Components: <br />
+> - Customer
+> - Reservation
+> - Reservation Manager
+> - Staff
+> - Util
+> - App
 
 #### Figure 6: Design Selection <br  />
 
