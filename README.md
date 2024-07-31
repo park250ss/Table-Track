@@ -78,6 +78,11 @@ Employee Features:
 #### Integration Testing
 - The test case 'testUpdateReservation_Valid' in the [Reservation Manager Test](/TableTrack/tests/ReservationManagerTest.java) file, performs Integration testing, because it tests how the Reservation class and the Reservation Manager class interact with each other
 
+#### Boundary Value Testing
+- ![image](https://github.com/user-attachments/assets/a2fbfd71-9911-46ca-8ab3-1dbea6cef3f6)
+
+#### Equivalence Class Testing
+
 #### Decision Table Testing
 - Decision Table for making a reservation:
 ![image](https://github.com/user-attachments/assets/571eb9cb-433f-4fc0-af20-13f743f5fedd)
