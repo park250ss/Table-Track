@@ -102,19 +102,21 @@ Seonyu Park <br />
 >
 
 #### Test Case and Results
-> Path Testing <br />
-> For the addReservation() method in the ReservationManager class, there are two paths that can be taken. The first path is when the requested time slot is available and the second one is when the time slot is not available. These two test cases cover both of these paths.
+
 #### Figure : Path Testing <br />
 ![image](https://github.com/user-attachments/assets/f93c4f9d-27a2-4301-82da-b3bc15e17bfe)
+> Path Testing <br />
+> For the addReservation() method in the ReservationManager class, there are two paths that can be taken. The first path is when the requested time slot is available and the second one is when the time slot is not available. These two test cases cover both of these paths.
 
-> Interation Testing <br />
-> The test case 'testUpdateReservation_Valid' in the [Reservation Manager Test](/TableTrack/tests/ReservationManagerTest.java) file, performs Integration testing, because it tests how the Reservation class and the Reservation Manager class interact with each other
 #### Figure : Integration Testing <br />
 ![image](https://github.com/user-attachments/assets/f08f2d6c-3bd0-4f8e-a650-66f8443629f5)
+> Interation Testing <br />
+> The test case 'testUpdateReservation_Valid' in the [Reservation Manager Test](/TableTrack/tests/ReservationManagerTest.java) file, performs Integration testing, because it tests how the Reservation class and the Reservation Manager class interact with each other
 
-> Boundary Value Testing <br />
 #### Figure: Boundary Value Testing <br />
 ![image](https://github.com/user-attachments/assets/a2fbfd71-9911-46ca-8ab3-1dbea6cef3f6)
+> Boundary Value Testing <br />
+> The purpose of the boundary value testing was to ensure that the Util.java correctly handles edge cases for date and time inputs. Our goal was to verify that the program can handle minimum and maximum valid inputs, as well as invalid formats and special cases.
 
 > Equivalence Class Testing <br />
 #### Figure: Equivalence Class Testing <br />
