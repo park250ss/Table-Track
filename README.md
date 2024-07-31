@@ -82,6 +82,7 @@ Employee Features:
 - ![image](https://github.com/user-attachments/assets/a2fbfd71-9911-46ca-8ab3-1dbea6cef3f6)
 
 #### Equivalence Class Testing
+- ![image](https://github.com/user-attachments/assets/7a43eb27-19ca-4fa6-a68e-fede8b8ba8a1)
 
 #### Decision Table Testing
 - Decision Table for making a reservation:
