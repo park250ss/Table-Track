@@ -27,9 +27,11 @@ Restaurant Staff:
 - Restaurant staff can update and cancel reservations
 
 ### Constraints
-- Economic Factors: Our product is free to use 
-- Sustainability and Environmental Factors: Our application allows restaurants to save supplies, as all reservations are done online. 
+- Economic Factors: Our product is free to use, reducing costs for restaurants and increasing accessibility for all types of dining facilities.
+- Sustainability and Environmental Factors: Our application reduces the need for paper and other supplies by allwoing all reservation to be made on devices, contributing to environmental sustainability. 
 - Societal Impacts: Our application reduces employees' workload and stress, as customers can book their own reservations, without having to speak to an employee.
+- Reliability: Our system will be designed for reliability, ensuring consistent perfomance and minimizing downtime.
+- Ethics: Our program will be designed with ethical considerations in mind, ensuring fair access and treatment for all users.
 - No User Interface : Table Track will be a command-line based software, with no graphical user interface.
 - Only employees can upadate the reservation information. Customers are not allowed to change any reservations.
 
