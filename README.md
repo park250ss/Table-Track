@@ -104,4 +104,10 @@ Employee Features:
 ![image](https://github.com/user-attachments/assets/c6c5d6d3-0d71-4d12-8c0d-1abf86764da2)
 
 ### Limitations
-- Our design is only available through a command-line interface. 
+- Our design is only available through a command-line interface.
+
+## Team Work
+
+## Project Management
+
+## Conclusion
