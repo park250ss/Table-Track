@@ -85,32 +85,45 @@ Seonyu Park <br />
 #### Figure 6: Design Selection <br  />
 
 #### Table 14: Comparison of Solutions
+![image](https://github.com/user-attachments/assets/ae42218f-be82-4ae6-bcb6-10f498387b3d)
 
 
 ### 4. Team Work
 #### Table 1: Week 1 Meeting 
+![image](https://github.com/user-attachments/assets/a059f338-5d62-4538-83d1-cdf9268f583d)
 
 #### Table 2: Week 2 Meeting
+![image](https://github.com/user-attachments/assets/63a7ce2a-6984-414c-818e-533bcbf82fa2)
 
 #### Table 3: Week 3 Meeting
+![image](https://github.com/user-attachments/assets/cffb2bee-4ea9-443d-93b5-75ecc25210ff)
 
 #### Table 4: Week 4 Meeting
+![image](https://github.com/user-attachments/assets/d40fb28c-69fa-4fc6-8fef-fc2fe5ac0fff)
 
 #### Table 5: Week 5 Meeting
+![image]("https://github.com/user-attachments/assets/cea7738d-3589-4760-a118-2d8f11fee67a)
 
 #### Table 6: Week 6 Meeting
+![image](https://github.com/user-attachments/assets/2772ee78-8da3-4104-9381-9bcc19c0a5fe)
 
 #### Table 7: Week 7 Meeting
+![image](https://github.com/user-attachments/assets/8217de43-73f3-4c3a-9ad2-7742e217edfa)
 
 #### Table 8: Week 8 Meeting
+![image](https://github.com/user-attachments/assets/fa592ac0-4b9c-400f-a144-35e2fffbee1f)
  
 #### Table 9: Week 9 Meeting
+![image](https://github.com/user-attachments/assets/fa82afc2-c6b7-4255-873a-01170badcc9e)
 
 #### Table 10: Week 10 Meeting
+![image](https://github.com/user-attachments/assets/5cd4fed1-350f-47a8-a2ab-924edf1dba4e)
 
 #### Table 11: Week 11 Meeting
+![image](https://github.com/user-attachments/assets/d0efb7a5-0f81-426b-9a6b-6e3aa750584a)
  
 #### Table 12: Week 12 Meeting
+![image](https://github.com/user-attachments/assets/35b36712-c7e1-45c8-a2dd-99748bfb89fc)
 
 ### 5. Project Management
 #### Figure 4: Gantt Chart
