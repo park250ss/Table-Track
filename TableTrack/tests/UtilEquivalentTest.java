@@ -76,6 +76,5 @@ public class UtilEquivalenceTest {
         		throw new RuntimeException("Invalid number of people");
         	}
         });
-
     }
 }
