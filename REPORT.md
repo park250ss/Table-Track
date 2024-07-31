@@ -49,13 +49,15 @@ Seonyu Park <br />
 
 > **2.2.3 Constraints** <br />
 > 1. Economic Factors:<br />
-> The application is completely free to use and helps in saving on manual supplies. <br />
-> 2. Ethics: <br />
+> Our product is free to use, reducing costs for restaurants and increasing accessibility for all types of dining facilities. <br />
+> 2. Ethics: Our program will be designed with ethical considerations in mind, ensuring fair access and treatment for all users. <br />
 > The application adheres to copyright regulations for photos and logos. <br />
 > 3. Sustainability and Environmental Factors: <br />
-> The application allows users to save paper and supplies.<br />
+> Our application reduces the need for paper and other supplies by allwoing all reservation to be made on devices, contributing to environmental sustainability.<br />
 > 4. Societal Impacts: <br />
 > Our application reduces employees' workload and stress, as customers can book their own reservations, without having to speak to an employee. <br />
+> 5. Reliability: <br />
+> Our system will be designed for reliability, ensuring consistent perfomance and minimizing downtime.
 
 ### 3. Solution
 #### Solution 1<br />
