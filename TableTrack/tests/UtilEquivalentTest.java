@@ -58,7 +58,6 @@ public class UtilEquivalenceTest {
     public void testValidNumberOfPeople() {
         String input = "5\n"; 
         System.setIn(new ByteArrayInputStream(input.getBytes()));
-//        Util.setScanner(new Scanner(System.in)); 
         Scanner scanner = new Scanner(System.in);
         int expectedNumber = 5;
         int actualNumber = scanner.nextInt();
