@@ -99,6 +99,30 @@ Seonyu Park <br />
 > Our design took societal constraints into consideration by ensuring that our product would be beneficial for a restaurants' employees and help them lessen their workload. By giving the customer's the ability to make and update their own reservations, employees no longer have to personally accept calls for reservations.
 > Our product also took safety constraints into consideration by only allowing employees to make and view changes with a specific code. This ensures that no one except for employees can view and edit reservations.
 > We took economic constraints into consideration as our product would be completely free to use for any restaurant.
+>
+
+#### Test Case and Results
+> Path Testing <br />
+> For the addReservation() method in the ReservationManager class, there are two paths that can be taken. The first path is when the requested time slot is available and the second one is when the time slot is not available. These two test cases cover both of these paths.
+#### Figure : Path Testing <br />
+![image](https://github.com/user-attachments/assets/f93c4f9d-27a2-4301-82da-b3bc15e17bfe)
+
+> Interation Testing <br />
+> The test case 'testUpdateReservation_Valid' in the [Reservation Manager Test](/TableTrack/tests/ReservationManagerTest.java) file, performs Integration testing, because it tests how the Reservation class and the Reservation Manager class interact with each other
+#### Figure : Integration Testing <br />
+![image]()
+
+> Boundary Value Testing <br />
+#### Figure: Boundary Value Testing <br />
+![image](https://github.com/user-attachments/assets/a2fbfd71-9911-46ca-8ab3-1dbea6cef3f6)
+
+> Equivalence Class Testing <br />
+#### Figure: Equivalence Class Testing <br />
+
+> Decision Table Testing <br />
+> - [Decision Table Test Cases](/TableTrack/tests/UtilTest.java)
+#### Figure: Decision Table Testing <br />
+![image](https://github.com/user-attachments/assets/571eb9cb-433f-4fc0-af20-13f743f5fedd)
 
 ### 4. Team Work
 #### Table 1: Week 1 Meeting 
