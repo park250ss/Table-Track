@@ -110,7 +110,7 @@ Seonyu Park <br />
 > Interation Testing <br />
 > The test case 'testUpdateReservation_Valid' in the [Reservation Manager Test](/TableTrack/tests/ReservationManagerTest.java) file, performs Integration testing, because it tests how the Reservation class and the Reservation Manager class interact with each other
 #### Figure : Integration Testing <br />
-![image]()
+![image](https://github.com/user-attachments/assets/f08f2d6c-3bd0-4f8e-a650-66f8443629f5)
 
 > Boundary Value Testing <br />
 #### Figure: Boundary Value Testing <br />
