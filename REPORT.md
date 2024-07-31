@@ -102,7 +102,7 @@ Seonyu Park <br />
 ![image](https://github.com/user-attachments/assets/d40fb28c-69fa-4fc6-8fef-fc2fe5ac0fff)
 
 #### Table 5: Week 5 Meeting
-![image]("https://github.com/user-attachments/assets/cea7738d-3589-4760-a118-2d8f11fee67a)
+![image](https://github.com/user-attachments/assets/cea7738d-3589-4760-a118-2d8f11fee67a)
 
 #### Table 6: Week 6 Meeting
 ![image](https://github.com/user-attachments/assets/2772ee78-8da3-4104-9381-9bcc19c0a5fe)
