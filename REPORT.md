@@ -96,7 +96,9 @@ Seonyu Park <br />
 
 #### Table 14: Comparison of Solutions
 ![image](https://github.com/user-attachments/assets/ae42218f-be82-4ae6-bcb6-10f498387b3d)
-
+> Our design took societal constraints into consideration by ensuring that our product would be beneficial for a restaurants' employees and help them lessen their workload. By giving the customer's the ability to make and update their own reservations, employees no longer have to personally accept calls for reservations.
+> Our product also took safety constraints into consideration by only allowing employees to make and view changes with a specific code. This ensures that no one except for employees can view and edit reservations.
+> We took economic constraints into consideration as our product would be completely free to use for any restaurant.
 
 ### 4. Team Work
 #### Table 1: Week 1 Meeting 
