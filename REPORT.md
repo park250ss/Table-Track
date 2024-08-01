@@ -138,10 +138,12 @@ Seonyu Park <br />
 > Interation Testing <br />
 > The test case 'testUpdateReservation_Valid' in the [Reservation Manager Test](/TableTrack/tests/ReservationManagerTest.java) file, performs Integration testing, because it tests how the Reservation class and the Reservation Manager class interact with each other
 
-#### Figure: Boundary Value Testing <br />
-![image](https://github.com/user-attachments/assets/a2fbfd71-9911-46ca-8ab3-1dbea6cef3f6)
+#### 4.3 Boundary Value Testing <br />
 > Boundary Value Testing <br />
 > The purpose of the boundary value testing was to ensure that the Util.java correctly handles edge cases for date and time inputs. Our goal was to verify that the program can handle minimum and maximum valid inputs, as well as invalid formats and special cases.
+
+#### Figure: Boundary Value Testing <br />
+![image](https://github.com/user-attachments/assets/a2fbfd71-9911-46ca-8ab3-1dbea6cef3f6)
 
 > The test was to cover the following scenario:
 > - Min Date: the earliest valid date
