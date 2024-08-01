@@ -12,7 +12,7 @@ Seonyu Park <br />
 ## Table of Contents
 1. [Introduction](#introduction) <br />
 2. [Design Problem](#design-problem) <br />
-  [2.1 Problem Definition] <br />
+   2.1 [Problem Definition](#problem-definition) <br />
   [2.2 Design Requirements] <br />
    - 2.2.1 Functions <br />
    - 2.2.2 Objectives <br />
@@ -36,12 +36,13 @@ Seonyu Park <br />
 ## List of Tables
  
 
-### Introduction <br />
+### Introduction 
+> <br />
 > In the modern dining industry, efficient management of reservations is critical for enhancing customer satisfaction and optimizing restaurant operations. Many restaurants still rely on outdated, manual reservation systems that are prone to errors, overbooking, and inefficiencies. These systems often result in frustrated customers due to lost reservations, long wait times, and poor table management. Additionally, restaurant staff spends considerable time managing bookings manually, which detracts from their ability to provide excellent customer service.<br />
 >
 > 
 ### Design Problem
-#### 2.1 Problem Definition <br />
+#### Problem Definition <br />
 > 
 > Table Track will provide a command-line interface for both customers and restaurant staff to interact with the reservation system. Customers can make reservations, view available time slots, and receive confirmation of their bookings. Restaurant staff will have access to functionalities such as adding, updating, and canceling reservations.
 > Our main objective is to design and develop robust testing suites for this project. We will employ various testing techniques, including path testing, data flow analysis, logic coverage, integration testing, and validation testing. By thoroughly testing the software application, we aim to ensure its reliability, accuracy, and effectiveness in managing restaurant reservations.<br />
