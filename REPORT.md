@@ -191,7 +191,7 @@ Seonyu Park <br />
 > Decision Table Testing <br />
 > - [Decision Table Test Cases](/TableTrack/tests/UtilTest.java)
 
-### 4. Team Work
+### 5. Team Work
 #### Table 1: Week 1 Meeting 
 ![image](https://github.com/user-attachments/assets/a059f338-5d62-4538-83d1-cdf9268f583d)
 
@@ -228,11 +228,11 @@ Seonyu Park <br />
 #### Table 12: Week 12 Meeting
 ![image](https://github.com/user-attachments/assets/35b36712-c7e1-45c8-a2dd-99748bfb89fc)
 
-### 5. Project Management
+### 6. Project Management
 #### Figure 4: Gantt Chart
 
 
-### 6.Conclusion and Future Work
+### 7.Conclusion and Future Work
 **Conclusion:** <br />
 
 **Future Work:** <br />
