@@ -92,9 +92,8 @@ Seonyu Park <br />
 > - Util
 > - App
 
-#### Figure 6: Design Selection <br  />
 
-#### Table 14: Comparison of Solutions
+#### Table 1: Comparison of Solutions
 ![image](https://github.com/user-attachments/assets/07432777-84b3-4b4b-8728-812f45b7194a)
 >
 > Solution #1 <br />
