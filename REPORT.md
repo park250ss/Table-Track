@@ -171,7 +171,7 @@ Seonyu Park <br />
 
 #### 4.5 State Transition Testing <br />
 > State Transition Testing <br />
-> The goal of state transition testing for the ReservationManagerStateTransitionTest.java was to make that the application correctly handles the different states and trnasitions involced in the reservation process. We wanted to verify that the program correctly transitions from initial state to gathering reservation details, checks slot availability and appropriately handles both available and unavailable time slots and makes a reservation successfully or handles reservation failure.
+> The goal of state transition testing for the ReservationManagerStateTransitionTest.java was to make that the application correctly handles the different states and trnasitions involced in the reservation process. We wanted to verify that the program correctly transitions from initial state to gathering reservation details, checks slot availability and appropriately handles both available and unavailable time slots and makes a reservation successfully or handles reservation failure. [Reservation Manager State Transition Test](/TableTrack/tests/ReservationManagerStateTransitionTest.java)
 
 > The test was to cover following:
 > - S1: Start -> S2: Gather Reservation Details: event that user initiated the reservation process and provide details such as name, contact number, date, time and number of people)
