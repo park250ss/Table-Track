@@ -128,7 +128,13 @@ Seonyu Park <br />
 ### 4. Test Cases and Results
 
 #### 4.1 Path Testing <br />
+> Path Testing <br />
+> The Path testing is to cover all possible paths in a function
 > For the addReservation() method in the ReservationManager class, there are two paths that can be taken. The first path is when the requested time slot is available and the second one is when the time slot is not available. These two test cases cover both of these paths.
+> Path covered:
+> - Valid reservation made
+> - Invalid time slot entered
+> - Past date entered
 
 #### Figure : Path Testing <br />
 ![image](https://github.com/user-attachments/assets/8c3167d5-ac04-44de-a6ea-dc668d9c215a)
@@ -150,8 +156,8 @@ Seonyu Park <br />
 
 #### Figure : Integration Testing <br />
 ![image](https://github.com/user-attachments/assets/f08f2d6c-3bd0-4f8e-a650-66f8443629f5)
-> Interation Testing <br />
 > The test case 'testUpdateReservation_Valid' in the [Reservation Manager Test](/TableTrack/tests/ReservationManagerTest.java) file, performs Integration testing, because it tests how the Reservation class and the Reservation Manager class interact with each other
+
 
 #### 4.3 Boundary Value Testing <br />
 > Boundary Value Testing <br />
@@ -179,8 +185,19 @@ Seonyu Park <br />
 > - testTimewithLeadingZero(): passed. the system processes a time input with a single digit hour without a leading zero
 
 #### 4.4 Equivalence Class Testing <br />
-#### Figure: Equivalence Class Testing <br />
 > Equivalence Class Testing <br />
+> Equivalence class testing was done to enseure that each input is correctly handled, depending on if it is a valid or invalid input
+> inputs tested:
+> - valid future date
+> - invalid date format
+> - past date
+> - valid time
+> - invaild time
+> - valid number of people
+> - invalid number of people
+
+#### Figure: Equivalence Class Testing <br />
+![image](https://github.com/user-attachments/assets/265f8537-6f7f-4c29-b555-2a428e5738b1)
 
 #### 4.5 State Transition Testing <br />
 > State Transition Testing <br />
@@ -202,6 +219,8 @@ Seonyu Park <br />
 
 #### 4.6 Decision Table Testing <br />
 > Decision Table Testing <br />
+> The purpose of the decision table testing was to ensure that the ReservationManager.java is able to handle various combiniations of input and conditions when user is making a reservation
+> The test will identify and verify how different input condtions affect the system behaviour and the corresponding actions
 > - [Decision Table Test Cases](/TableTrack/tests/UtilTest.java)
 
 #### Figure: Decision Table Testing <br />
