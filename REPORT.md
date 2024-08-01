@@ -183,7 +183,7 @@ Seonyu Park <br />
 ![image](https://github.com/user-attachments/assets/da9b0a8e-f12c-4c81-8f2a-fa7b628f9e46)
 
 > State Transition Testing Results: <br />
-![image](https://github.com/user-attachments/assets/f5c6ed5f-d40e-4853-b5b6-f8ec0ef4a1fb)
+![image](https://github.com/user-attachments/assets/e981d941-f7f5-40d1-8d30-e08fe3620ddf)
 
 
 #### Figure: Decision Table Testing <br />
