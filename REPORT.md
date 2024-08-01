@@ -133,6 +133,8 @@ Seonyu Park <br />
 #### Figure : Path Testing <br />
 ![image](https://github.com/user-attachments/assets/8c3167d5-ac04-44de-a6ea-dc668d9c215a)
 
+#### 4.2 Integration Testing <br />
+
 #### Figure : Integration Testing <br />
 ![image](https://github.com/user-attachments/assets/f08f2d6c-3bd0-4f8e-a650-66f8443629f5)
 > Interation Testing <br />
@@ -161,14 +163,26 @@ Seonyu Park <br />
 > - testvalidTimeFormat(): passed. the system checks invalid format and handles followed by a valid time
 > - testTimewithLeadingZero(): passed. the system processes a time input with a single digit hour without a leading zero
 
+#### 4.4 Equivalence Class Testing <br />
 #### Figure: Equivalence Class Testing <br />
 > Equivalence Class Testing <br />
+
+#### 4.5 State Transition Testing <br />
+> State Transition Testing <br />
+> The goal of state transition testing for the ReservationManagerStateTransitionTest.java was to make that the application correctly handles the different states and trnasitions involced in the reservation process. We wanted to verify that the program correctly transitions from initial state to gathering reservation details, checks slot availability and appropriately handles both available and unavailable time slots and makes a reservation successfully or handles reservation failure.
+
+> The test was to cover following:
+> - S1: Start -> S2: Gather Reservation Details: event that user initiated the reservation process and provide details such as name, contact number, date, time and number of people)
+> - S2: Gather Reservation Details -> S3: Check Slot Availability: event that the program gathers all the necessary details and checks if the desired time slot is available
+> - S3: Check Slot Availability -> S4: Reservation Made: event that if the time slot is available, the reservation is successfully booked
+> - S3: Check Slot Availability -> S5: Reservation Failed: event that if the slot is not available, the reservation fails
+> - S5: Reservation Failed -> S2: Gather Reservation Details for Retry: event that user retries the reservation process by providing new details
+
 
 #### Figure: State Transition Testing <br />
 ![image](https://github.com/user-attachments/assets/4830b7ee-8c15-4135-bde8-70cbb5b0904f)
 ![image](https://github.com/user-attachments/assets/da9b0a8e-f12c-4c81-8f2a-fa7b628f9e46)
-> State Transition Testing <br />
-> The goal of state transition testing for the ReservationManagerStateTransitionTest.java was to make that the application correctly handles the different states and trnasitions involced in the reservation process. We wanted to verify that the program correctly transitions from initial state to gathering reservation details, checks slot availability and appropriately handles both available and unavailable time slots and makes a reservation successfully or handles reservation failure.
+
 
 #### Figure: Decision Table Testing <br />
 ![image](https://github.com/user-attachments/assets/571eb9cb-433f-4fc0-af20-13f743f5fedd)
