@@ -37,6 +37,11 @@ public class ReservationManager {
 
     /* This function will check for available time and reserve it, otherwise return false */
     public int addReservation(String name, String contactInfo, LocalDate reservationDate, LocalTime reservationTime, int numberOfPeople) {
+        LocalDate today = LocalDate.now();
+        if (reservationDate.isBefore(today)) {
+            return -1;
+        }
+        
         if (isTimeSlotAvailable(reservationDate, reservationTime)) {
             Reservation newReservation = new Reservation(name, reservationDate, reservationTime, numberOfPeople);
             reservations.add(newReservation);
