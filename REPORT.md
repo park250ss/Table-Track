@@ -13,10 +13,10 @@ Seonyu Park <br />
 1. [Introduction](#introduction) <br />
 2. [Design Problem](#design-problem) <br />
    2.1 [Problem Definition](#problem-definition) <br />
-  [2.2 Design Requirements] <br />
-   - 2.2.1 Functions <br />
-   - 2.2.2 Objectives <br />
-   - 2.2.3 Constraints <br />
+   2.2 [Design Requirements](#design-requirements) <br />
+   - 2.2.1 [Functions](#functions) <br />
+   - 2.2.2 [Objectives](#objectives) <br />
+   - 2.2.3 [Constraints](#constraints) <br />
 [3. Solution] <br />
   [3.1 Solution 1] <br />
   [3.2 Solution 2] <br />
