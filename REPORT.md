@@ -136,6 +136,17 @@ Seonyu Park <br />
 #### 4.2 Integration Testing <br />
 > Integration Testing <br />
 > The purpose the integration testing was to ensure that the ReservationManager.java integrate correctly with other components and handles various reservation operation. We verify that the program works as a whole when different parts are combined and interact with each other
+> [Resevation Manager Test](/TableTrack/tests/ReservationManagerTest.java)
+
+> The test was to cover the following:
+> - Valid Reservation: Adding a valid reservation and checking if it is successfully created and stored
+> - Invalid Reservation Due to Time Slot Conflit: Attempting to add a reservation when the desried time slot is already booked
+> - Invalid Reservation Due to Past Date: Trying to add a reservation with a date that is in the past
+> - Valid Cancellation: Canceling an existing reservation and ensuring it is removed from the system
+> - Invalid Cancellation: Attempting to cancel a non-existent reservation
+> - Valid Update: Updating an existing reservation and verifying that the updated details are correctly stored
+> - Invalid Update: Trying to update a non-existent reservation
+> - Retrieve All Reservation: Adding multiple reservations and retrieving the list of all reservations to ensure they are correctly stored and retrieved.
 
 #### Figure : Integration Testing <br />
 ![image](https://github.com/user-attachments/assets/f08f2d6c-3bd0-4f8e-a650-66f8443629f5)
