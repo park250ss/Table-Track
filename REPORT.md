@@ -113,6 +113,14 @@ Seonyu Park <br />
 > - Ethics: It has improved consideration as it allows better control for employees
 > - Summary: This solution improved on solution 1 by providing employees with a limited set of options chosen by the employees. Although some improved reliablity, some test cases failed.
 
+> Solution #3 <br />
+> - Economic Factors: This application is free to use
+> - Sustainability and Environmental Factors: The reservation made on electronic devices
+> - Societal Impacts: It has significant impacts with major reduction in employees workload and stress
+> - Reliability: It has high reliability and passed all test cases
+> - Ethics: It has high ethical standards with users' roll
+> - Summar: The final solution provides the highest scores acrross all factors making it the most suitable solution for the project.
+
 > Our design took societal constraints into consideration by ensuring that our product would be beneficial for a restaurants' employees and help them lessen their workload. By giving the customer's the ability to make and update their own reservations, employees no longer have to personally accept calls for reservations.
 > Our product also took safety constraints into consideration by only allowing employees to make and view changes with a specific code. This ensures that no one except for employees can view and edit reservations.
 > We took economic constraints into consideration as our product would be completely free to use for any restaurant.
