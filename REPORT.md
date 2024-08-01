@@ -230,6 +230,7 @@ Seonyu Park <br />
 
 ### 6. Project Management
 #### Figure 4: Gantt Chart
+![image](https://github.com/user-attachments/assets/3cf456eb-be1e-4b20-95d4-50d2ec805c4a)
 
 
 ### 7.Conclusion and Future Work
