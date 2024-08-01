@@ -17,13 +17,13 @@ Seonyu Park <br />
    - 2.2.1 [Functions](#functions) <br />
    - 2.2.2 [Objectives](#objectives) <br />
    - 2.2.3 [Constraints](#constraints) <br />
-[3. Solution] <br />
-  [3.1 Solution 1] <br />
-  [3.2 Solution 2] <br />
-  [3.3 Solution 3] <br />
-   - 3.3.1 Components <br />
-   - 3.3.2 Features <br />
-   - 3.3.3 Environmental, Societal, Safety and Economic Considerations <br />
+3. [Solution](#solution) <br />
+   3.1 [Solution 1](#solution-1) <br />
+   3.2 [Solution 2](#solution-2) <br />
+   3.3 [Final Solution](#final-solution) <br />
+   - 3.3.1 [Components](#components) <br />
+   - 3.3.2 [Features](#features) <br />
+   - 3.3.3 [Environmental, Societal, Safety and Economic Considerations](#environmental,-societal,-safety-and-economic-considerations) <br />
 
   
 
@@ -48,8 +48,9 @@ Seonyu Park <br />
 > Our main objective is to design and develop robust testing suites for this project. We will employ various testing techniques, including path testing, data flow analysis, logic coverage, integration testing, and validation testing. By thoroughly testing the software application, we aim to ensure its reliability, accuracy, and effectiveness in managing restaurant reservations.<br />
 
 #### Design Requirements 
-> <br>
-> **Functions** <br />
+> <br />
+> ##### Functions 
+> <br />
 > 1. Custmor:<br />
 > - View available reservation times
 > - Select an available time and number of people for a table
@@ -62,11 +63,13 @@ Seonyu Park <br />
 > - Cancel a reservation
 
  
-> **2.2.2 Objective** <br />
+> ##### Objective
+> <br />
 > 1. Customers can make reservations <br />
 > 2. Restaurant staff can update and cancel reservatiosn <br />
 
-> **2.2.3 Constraints** <br />
+> ##### Constraints
+> <br />
 > 1. Economic Factors:<br />
 > Our product is free to use, reducing costs for restaurants and increasing accessibility for all types of dining facilities. <br />
 > 2. Ethics: Our program will be designed with ethical considerations in mind, ensuring fair access and treatment for all users. <br />
@@ -78,16 +81,19 @@ Seonyu Park <br />
 > 5. Reliability: <br />
 > Our system will be designed for reliability, ensuring consistent perfomance and minimizing downtime.
 
-### 3. Solution
-#### 3.1 Solution 1<br />
+### Solution
+#### Solution 1
+> <br />
 > Our first solution was a simple solution that only allowed users to enter a time and number of people. The majority of our test cases failed as we only had the users enter minimal information.<br />
 >
 > 
-#### 3.2 Solution 2 <br />
+#### Solution 2 
+> <br />
 > This solution is an improvement over Solution 1 because it provides employees with a limited set of options chosen by the manager. However, it still allows employees the flexibility to choose the length of their shifts.<br />
 >
 > 
-#### 3.3 Final Solution <br />
+#### Final Solution 
+> <br />
 >  Our final solution is better than our other two solutions, as the user selects whether they are an employee or a customer. If they are an employee, they are prompted to enter in a code to get access to the employee information. Our final solution includes the customer entering in all of the information needed to book a reservation and allows the customers to view available times, and update their reservation. It also allows the employees to make, view, edit, and delete reservations. This resulted in all of our test cases passing. <br />
 > <br />
 > Customer Features: <br />
