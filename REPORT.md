@@ -10,6 +10,23 @@ Seonyu Park <br />
 
 
 ## Table of Contents
+[1. Introduction] <br />
+[2. Design Problem] <br />
+  [2.1 Problem Definition] <br />
+  [2.2 Design Requirements] <br />
+   - 2.2.1 Functions <br />
+   - 2.2.2 Objectives <br />
+   - 2.2.3 Constraints <br />
+[3. Solution] <br />
+  [3.1 Solution 1] <br />
+  [3.2 Solution 2] <br />
+  [3.3 Solution 3] <br />
+   - 3.3.1 Components <br />
+   - 3.3.2 Features <br />
+   - 3.3.3 Environmental, Societal, Safety and Economic Considerations <br />
+
+  
+
 
 
 
@@ -60,15 +77,15 @@ Seonyu Park <br />
 > Our system will be designed for reliability, ensuring consistent perfomance and minimizing downtime.
 
 ### 3. Solution
-#### Solution 1<br />
+#### 3.1 Solution 1<br />
 > Our first solution was a simple solution that only allowed users to enter a time and number of people. The majority of our test cases failed as we only had the users enter minimal information.<br />
 >
 > 
-#### Solution 2 <br />
+#### 3.2 Solution 2 <br />
 > This solution is an improvement over Solution 1 because it provides employees with a limited set of options chosen by the manager. However, it still allows employees the flexibility to choose the length of their shifts.<br />
 >
 > 
-#### Final Solution <br />
+#### 3.3 Final Solution <br />
 >  Our final solution is better than our other two solutions, as the user selects whether they are an employee or a customer. If they are an employee, they are prompted to enter in a code to get access to the employee information. Our final solution includes the customer entering in all of the information needed to book a reservation and allows the customers to view available times, and update their reservation. It also allows the employees to make, view, edit, and delete reservations. This resulted in all of our test cases passing. <br />
 > <br />
 > Customer Features: <br />
