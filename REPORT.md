@@ -143,6 +143,8 @@ Seonyu Park <br />
 #### 4.3 Boundary Value Testing <br />
 > Boundary Value Testing <br />
 > The purpose of the boundary value testing was to ensure that the Util.java correctly handles edge cases for date and time inputs. Our goal was to verify that the program can handle minimum and maximum valid inputs, as well as invalid formats and special cases.
+> [Util Boundary Test](/TableTrack/tests/UtilBoundaryTest.java)
+
 
 > The test was to cover the following scenario:
 > - Min Date: the earliest valid date
