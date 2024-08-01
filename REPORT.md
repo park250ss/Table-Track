@@ -136,7 +136,7 @@ Seonyu Park <br />
 > - Invalid time slot entered
 > - Past date entered
 
-#### Figure : Path Testing <br />
+#### Figure 1: Path Testing <br />
 ![image](https://github.com/user-attachments/assets/8c3167d5-ac04-44de-a6ea-dc668d9c215a)
 
 #### 4.2 Integration Testing <br />
