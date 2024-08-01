@@ -95,7 +95,7 @@ Seonyu Park <br />
 #### Figure 6: Design Selection <br  />
 
 #### Table 14: Comparison of Solutions
-![image](https://github.com/user-attachments/assets/ae42218f-be82-4ae6-bcb6-10f498387b3d)
+![image](https://github.com/user-attachments/assets/07432777-84b3-4b4b-8728-812f45b7194a)
 >
 > Solution #1 <br />
 > - Economic Factors: This program is free to use
