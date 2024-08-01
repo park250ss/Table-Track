@@ -178,10 +178,12 @@ Seonyu Park <br />
 > - S3: Check Slot Availability -> S5: Reservation Failed: event that if the slot is not available, the reservation fails
 > - S5: Reservation Failed -> S2: Gather Reservation Details for Retry: event that user retries the reservation process by providing new details
 
-
 #### Figure: State Transition Testing <br />
 ![image](https://github.com/user-attachments/assets/4830b7ee-8c15-4135-bde8-70cbb5b0904f)
 ![image](https://github.com/user-attachments/assets/da9b0a8e-f12c-4c81-8f2a-fa7b628f9e46)
+
+> State Transition Testing Results: <br />
+![image](https://github.com/user-attachments/assets/f5c6ed5f-d40e-4853-b5b6-f8ec0ef4a1fb)
 
 
 #### Figure: Decision Table Testing <br />
