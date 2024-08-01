@@ -200,11 +200,12 @@ Seonyu Park <br />
 > State Transition Testing Results: <br />
 ![image](https://github.com/user-attachments/assets/e981d941-f7f5-40d1-8d30-e08fe3620ddf)
 
+#### 4.6 Decision Table Testing <br />
+> Decision Table Testing <br />
+> - [Decision Table Test Cases](/TableTrack/tests/UtilTest.java)
 
 #### Figure: Decision Table Testing <br />
 ![image](https://github.com/user-attachments/assets/571eb9cb-433f-4fc0-af20-13f743f5fedd)
-> Decision Table Testing <br />
-> - [Decision Table Test Cases](/TableTrack/tests/UtilTest.java)
 
 ### 5. Team Work
 #### Table 1: Week 1 Meeting 
