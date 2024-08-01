@@ -134,6 +134,8 @@ Seonyu Park <br />
 ![image](https://github.com/user-attachments/assets/8c3167d5-ac04-44de-a6ea-dc668d9c215a)
 
 #### 4.2 Integration Testing <br />
+> Integration Testing <br />
+> The purpose the integration testing was to ensure that the ReservationManager.java integrate correctly with other components and handles various reservation operation. We verify that the program works as a whole when different parts are combined and interact with each other
 
 #### Figure : Integration Testing <br />
 ![image](https://github.com/user-attachments/assets/f08f2d6c-3bd0-4f8e-a650-66f8443629f5)
