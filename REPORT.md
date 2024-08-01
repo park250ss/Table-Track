@@ -31,10 +31,13 @@ Seonyu Park <br />
 
 
 ## List of Figures
+Figure 1: Path Testing
+
 
 
 ## List of Tables
 [Table 1: Comparison of Solutions](#table-1:-comparison-of-solutions)
+[Table 2: Integration Testing]
  
 
 ### Introduction 
