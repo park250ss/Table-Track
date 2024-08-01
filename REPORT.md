@@ -36,7 +36,8 @@ Seonyu Park <br />
 ## List of Tables
  
 
-### 1. Introduction <br />
+### Introduction
+<br />
 > In the modern dining industry, efficient management of reservations is critical for enhancing customer satisfaction and optimizing restaurant operations. Many restaurants still rely on outdated, manual reservation systems that are prone to errors, overbooking, and inefficiencies. These systems often result in frustrated customers due to lost reservations, long wait times, and poor table management. Additionally, restaurant staff spends considerable time managing bookings manually, which detracts from their ability to provide excellent customer service.<br />
 >
 > 
