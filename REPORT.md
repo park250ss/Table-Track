@@ -142,6 +142,13 @@ Seonyu Park <br />
 ![image](https://github.com/user-attachments/assets/a2fbfd71-9911-46ca-8ab3-1dbea6cef3f6)
 > Boundary Value Testing <br />
 > The purpose of the boundary value testing was to ensure that the Util.java correctly handles edge cases for date and time inputs. Our goal was to verify that the program can handle minimum and maximum valid inputs, as well as invalid formats and special cases.
+> The test was to cover the following scenario:
+> - Min Date: the earliest valid date
+> - Max Date: the latest valid Date
+> - Min Time: the earliest valid time
+> - Max Time: the latest valid time
+> - Invalid Time Format
+> - Time with Leading Zero: Time input a single digit hour without a leading zero
 
 #### Figure: Equivalence Class Testing <br />
 > Equivalence Class Testing <br />
