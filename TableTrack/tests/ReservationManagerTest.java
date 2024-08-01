@@ -35,6 +35,15 @@ public class ReservationManagerTest {
     }
 
     @Test
+    public void testAddReservation_PastDate() {
+        LocalDate pastDate = LocalDate.of(2024, 7, 25);
+        LocalTime time = LocalTime.of(19, 30);
+        int id = reservationManager.addReservation("Sophia", "111-1111", pastDate, time, 4);
+        
+        assertEquals(-1, id, "Should return -1 for a past date."); 
+    }
+
+    @Test
     public void testCancelReservation_Valid() {
         LocalDate date = LocalDate.of(2024, 8, 10);
         LocalTime time = LocalTime.of(19, 30);
