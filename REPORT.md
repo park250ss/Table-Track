@@ -10,7 +10,7 @@ Seonyu Park <br />
 
 
 ## Table of Contents
-[1. Introduction] <br />
+[1. Introduction](#1. Introduction) <br />
 [2. Design Problem] <br />
   [2.1 Problem Definition] <br />
   [2.2 Design Requirements] <br />
