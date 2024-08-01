@@ -154,7 +154,7 @@ Seonyu Park <br />
 > - Invalid Update: Trying to update a non-existent reservation
 > - Retrieve All Reservation: Adding multiple reservations and retrieving the list of all reservations to ensure they are correctly stored and retrieved.
 
-#### Figure : Integration Testing <br />
+#### Table 2: Integration Testing <br />
 ![image](https://github.com/user-attachments/assets/f08f2d6c-3bd0-4f8e-a650-66f8443629f5)
 > The test case 'testUpdateReservation_Valid' in the [Reservation Manager Test](/TableTrack/tests/ReservationManagerTest.java) file, performs Integration testing, because it tests how the Reservation class and the Reservation Manager class interact with each other
 
@@ -173,7 +173,7 @@ Seonyu Park <br />
 > - Invalid Time Format
 > - Time with Leading Zero: Time input a single digit hour without a leading zero
 
-#### Figure: Boundary Value Testing <br />
+#### Table 3: Boundary Value Testing <br />
 ![image](https://github.com/user-attachments/assets/a2fbfd71-9911-46ca-8ab3-1dbea6cef3f6)
 
 > Boundary Value Testing Results: <br />
@@ -196,7 +196,7 @@ Seonyu Park <br />
 > - valid number of people
 > - invalid number of people
 
-#### Figure: Equivalence Class Testing <br />
+#### Table 4: Equivalence Class Testing <br />
 ![image](https://github.com/user-attachments/assets/265f8537-6f7f-4c29-b555-2a428e5738b1)
 
 #### 4.5 State Transition Testing <br />
@@ -210,10 +210,12 @@ Seonyu Park <br />
 > - S3: Check Slot Availability -> S5: Reservation Failed: event that if the slot is not available, the reservation fails
 > - S5: Reservation Failed -> S2: Gather Reservation Details for Retry: event that user retries the reservation process by providing new details
 
-#### Figure: State Transition Testing <br />
+#### Table 5: State Transition Testing Table <br />
+#### Figure 2: State Transition Testing Diagram <br />
 ![image](https://github.com/user-attachments/assets/4830b7ee-8c15-4135-bde8-70cbb5b0904f)
 ![image](https://github.com/user-attachments/assets/da9b0a8e-f12c-4c81-8f2a-fa7b628f9e46)
 
+#### Table 6: State Transition Testing Results <br />
 > State Transition Testing Results: <br />
 ![image](https://github.com/user-attachments/assets/e981d941-f7f5-40d1-8d30-e08fe3620ddf)
 
@@ -223,48 +225,48 @@ Seonyu Park <br />
 > The test will identify and verify how different input condtions affect the system behaviour and the corresponding actions
 > - [Decision Table Test Cases](/TableTrack/tests/UtilTest.java)
 
-#### Figure: Decision Table Testing <br />
+#### Table 7: Decision Table Testing <br />
 ![image](https://github.com/user-attachments/assets/571eb9cb-433f-4fc0-af20-13f743f5fedd)
 
 ### 5. Team Work
-#### Table 1: Week 1 Meeting 
+#### Table 8: Week 1 Meeting 
 ![image](https://github.com/user-attachments/assets/a059f338-5d62-4538-83d1-cdf9268f583d)
 
-#### Table 2: Week 2 Meeting
+#### Table 9: Week 2 Meeting
 ![image](https://github.com/user-attachments/assets/63a7ce2a-6984-414c-818e-533bcbf82fa2)
 
-#### Table 3: Week 3 Meeting
+#### Table 10: Week 3 Meeting
 ![image](https://github.com/user-attachments/assets/cffb2bee-4ea9-443d-93b5-75ecc25210ff)
 
-#### Table 4: Week 4 Meeting
+#### Table 11: Week 4 Meeting
 ![image](https://github.com/user-attachments/assets/d40fb28c-69fa-4fc6-8fef-fc2fe5ac0fff)
 
-#### Table 5: Week 5 Meeting
+#### Table 12: Week 5 Meeting
 ![image](https://github.com/user-attachments/assets/cea7738d-3589-4760-a118-2d8f11fee67a)
 
-#### Table 6: Week 6 Meeting
+#### Table 13: Week 6 Meeting
 ![image](https://github.com/user-attachments/assets/2772ee78-8da3-4104-9381-9bcc19c0a5fe)
 
-#### Table 7: Week 7 Meeting
+#### Table 14: Week 7 Meeting
 ![image](https://github.com/user-attachments/assets/8217de43-73f3-4c3a-9ad2-7742e217edfa)
 
-#### Table 8: Week 8 Meeting
+#### Table 15: Week 8 Meeting
 ![image](https://github.com/user-attachments/assets/fa592ac0-4b9c-400f-a144-35e2fffbee1f)
  
-#### Table 9: Week 9 Meeting
+#### Table 16: Week 9 Meeting
 ![image](https://github.com/user-attachments/assets/fa82afc2-c6b7-4255-873a-01170badcc9e)
 
-#### Table 10: Week 10 Meeting
+#### Table 17: Week 10 Meeting
 ![image](https://github.com/user-attachments/assets/5cd4fed1-350f-47a8-a2ab-924edf1dba4e)
 
-#### Table 11: Week 11 Meeting
+#### Table 18: Week 11 Meeting
 ![image](https://github.com/user-attachments/assets/d0efb7a5-0f81-426b-9a6b-6e3aa750584a)
  
-#### Table 12: Week 12 Meeting
+#### Table 19: Week 12 Meeting
 ![image](https://github.com/user-attachments/assets/35b36712-c7e1-45c8-a2dd-99748bfb89fc)
 
 ### 6. Project Management
-#### Figure 4: Gantt Chart
+#### Figure 3: Gantt Chart
 ![image](https://github.com/user-attachments/assets/3cf456eb-be1e-4b20-95d4-50d2ec805c4a)
 
 
