@@ -53,7 +53,7 @@ Figure 1: Path Testing
 
 #### Design Requirements 
 > <br />
-> ##### Functions 
+> #####Functions 
 > <br />
 > 1. Custmor:<br />
 > - View available reservation times
