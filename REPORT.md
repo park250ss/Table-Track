@@ -60,7 +60,7 @@ Figure 1: Path Testing
 > - Select an available time and number of people for a table
 > - Enter name and contact information
 > - Confirm reservation
->
+> <br/>
 > 2. Restaurant Staff:<br />
 > - Update number of people in a reservation
 > - Update time of a reservation
@@ -105,7 +105,7 @@ Figure 1: Path Testing
 > - Customers can view available time slots for specific dates, in order to choose the best available time for them. <br />
 > - Reservations can be updated with the Reservation ID number that was given to the customer. They can update the date, time or number of people for their reservation. <br />
 > - Customers can enter in their Reservation ID number and view their reservation information. <br />
->
+> <br/>
 > Employees Features: <br />
 > - Employees can make a reservation for a customer by inserting the date, time, number of people and customer information. <br />
 > - Employees can update a customers reservation. <br />
