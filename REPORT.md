@@ -112,7 +112,7 @@ Figure 1: Path Testing
 > - Available time slots for dates can be viewed by employees. <br />
 > - All reservations can be viewed by employees. <br />
 > - Employees can cancel reservations. <br />
->
+> <br/>
 > Components: <br />
 > - Customer
 > - Reservation
