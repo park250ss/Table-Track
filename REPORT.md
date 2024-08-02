@@ -301,5 +301,12 @@ Figure 1: Path Testing
 
 ### 7.Conclusion and Future Work
 **Conclusion:** <br />
+> Enhanced Efficiency: Table-Track streamlines reservation management, reducing errors and overbooking, thus enhancing customer satisfaction and optimizing restaurant operations.
+
+> Robust Testing: Our rigorous testing suite ensures the reliability, accuracy, and effectiveness of the system, covering various testing techniques like path testing, data flow analysis, and integration testing.
+
+> Employee Empowerment: By allowing customers to make and update their own reservations, employees can focus more on delivering excellent service, reducing their workload and stress.
 
 **Future Work:** <br />
+> We can implement PHP to have a working database
+> We can make it into a functioning website
