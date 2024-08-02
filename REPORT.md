@@ -53,9 +53,9 @@ Figure 1: Path Testing
 
 #### Design Requirements 
 > <br />
-> #####Functions 
+> ##### Functions 
 > <br />
-> 1. Custmor:<br />
+> 1. Customor:<br />
 > - View available reservation times
 > - Select an available time and number of people for a table
 > - Enter name and contact information
