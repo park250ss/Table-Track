@@ -5,4 +5,4 @@ A Restaurant Reservation System
 - Seonyu Park
 - Raman Singh
 
-- ## [Project Report](REPORT.md}
+- ## [Project Report](/REPORT.md)
