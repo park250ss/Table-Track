@@ -24,10 +24,10 @@ Seonyu Park <br />
    - 3.3.1 [Components](#components) <br />
    - 3.3.2 [Features](#features) <br />
    - 3.3.3 [Environmental, Societal, Safety and Economic Considerations](#environmental,-societal,-safety-and-economic-considerations) <br />
-4. [Test Cases and Results]
-5. [Team Work]
-6. [Project Management]
-7. [Future Work]
+4. [Test Cases and Results](#test-cases-and-results) <br />
+5. [Team Work](#team-work)  <br />
+6. [Project Management](#project-management)  <br />
+7. [Conclusion and Future Work](#conclusion-and-future-work)  <br />
 
   
 
@@ -158,7 +158,7 @@ Figure 1: Path Testing
 > We took economic constraints into consideration as our product would be completely free to use for any restaurant.
 >
 
-### 4. Test Cases and Results
+### Test Cases and Results
 
 #### 4.1 Path Testing <br />
 > Path Testing <br />
@@ -261,7 +261,7 @@ Figure 1: Path Testing
 #### Table 7: Decision Table Testing <br />
 ![image](https://github.com/user-attachments/assets/571eb9cb-433f-4fc0-af20-13f743f5fedd)
 
-### 5. Team Work
+### Team Work
 #### Table 8: Week 1 Meeting 
 ![image](https://github.com/user-attachments/assets/a059f338-5d62-4538-83d1-cdf9268f583d)
 
@@ -298,12 +298,12 @@ Figure 1: Path Testing
 #### Table 19: Week 12 Meeting
 ![image](https://github.com/user-attachments/assets/35b36712-c7e1-45c8-a2dd-99748bfb89fc)
 
-### 6. Project Management
+### Project Management
 #### Figure 3: Gantt Chart
 ![image](https://github.com/user-attachments/assets/3cf456eb-be1e-4b20-95d4-50d2ec805c4a)
 
 
-### 7.Conclusion and Future Work
+### Conclusion and Future Work
 **Conclusion:** <br />
 > Enhanced Efficiency: Table-Track streamlines reservation management, reducing errors and overbooking, thus enhancing customer satisfaction and optimizing restaurant operations.
 
