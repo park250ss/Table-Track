@@ -35,13 +35,32 @@ Seonyu Park <br />
 
 
 ## List of Figures
-Figure 1: Path Testing
+Figure 1: Path Testing <br />
+Figure 2: State Transition Testing Diagram <br />
+Figure 3: Gantt Chart <br />
 
 
 
 ## List of Tables
-[Table 1: Comparison of Solutions](#table-1:-comparison-of-solutions)
-[Table 2: Integration Testing]
+Table 1: Comparison of Solutions <br />
+Table 2: Integration Testing  <br />
+Table 3: Boundary Value Testing <br />
+Table 4: Equivalence Class Testing <br />
+Table 5: State Transition Testing Table <br />
+Table 6: State Transition Testing Results <br />
+Table 7: Decision Table Testing <br />
+Table 8: Week 1 Meeting <br />
+Table 9: Week 2 Meeting <br />
+Table 10: Week 3 Meeting <br />
+Table 11: Week 4 Meeting <br />
+Table 12: Week 5 Meeting <br />
+Table 13: Week 6 Meeting <br />
+Table 14: Week 7 Meeting <br />
+Table 15: Week 8 Meeting <br />
+Table 16: Week 9 Meeting <br />
+Table 17: Week 10 Meeting <br />
+Table 18: Week 11 Meeting <br />
+Table 19: Week 12 Meeting <br />
  
 
 ### Introduction 
