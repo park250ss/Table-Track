@@ -24,6 +24,10 @@ Seonyu Park <br />
    - 3.3.1 [Components](#components) <br />
    - 3.3.2 [Features](#features) <br />
    - 3.3.3 [Environmental, Societal, Safety and Economic Considerations](#environmental,-societal,-safety-and-economic-considerations) <br />
+4. [Test Cases and Results]
+5. [Team Work]
+6. [Project Management]
+7. [Future Work]
 
   
 
