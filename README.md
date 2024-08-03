@@ -7,5 +7,6 @@ A Restaurant Reservation System
 
 - ## [Project Report](/REPORT.md)
 - ## [Testing Documents](/docs/testing/TESTING.md)
+- ## [Project Management Documents](/doc)
 - ## [Final Product](/TableTrack)
 - ## [Presentation](/Presentation.md)
